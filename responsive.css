@@ -1,0 +1,157 @@
+@media (max-width: 450px) {
+  .menuicon {
+    display: block;
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    color: #37447e;
+    font-size: 22px;
+    font-weight: bold;
+    transition: all 300ms ease;
+  }
+
+  .fa-times {
+    display: block;
+    z-index: 999;
+    transform: rotate(90deg);
+    transition: all 500ms ease;
+    color: #fff;
+  }
+
+  .tophead {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 550px;
+    width: 100%;
+    /* background-color: rgba(0, 0, 0, 0.3); */
+    background-color: #37447e;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 9;
+    transform: translateY(-200%);
+    transition: all 300ms ease;
+  }
+
+  .menuactive {
+    transform: translateY(0);
+  }
+
+  .tophead .navbar ul {
+    flex-direction: column;
+    margin-top: 50px;
+  }
+
+  .tophead .navbar ul li a {
+    color: #fff;
+    font-size: 18px;
+  }
+
+  .tophead .logo {
+    position: absolute;
+    top: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .tophead .logo h1 {
+    color: #fff;
+  }
+
+  .tophead .topbtn {
+    margin-top: 80px;
+  }
+
+  .tophead .topbtn button {
+    background-color: #fff;
+    color: #37447e;
+  }
+
+  .main .leftside h3 {
+    font-size: 38px;
+    width: 480px;
+  }
+
+  .main .leftside p {
+    font-size: 14px;
+  }
+
+  .main .leftside .buttons {
+    max-width: 300px;
+  }
+
+  .section1 {
+    margin-top: 350px;
+  }
+
+  section .leftside h5 {
+    font-size: 30px;
+  }
+
+  section .leftside p {
+    font-size: 13px;
+  }
+
+  section .leftside .articles {
+    column-gap: 25px;
+    row-gap: 50px;
+    margin-top: 50px;
+  }
+
+  section .leftside .articles article {
+    width: 180px;
+    height: 150px;
+  }
+
+  section .rightside img {
+    display: block;
+    height: 250px;
+    margin: auto;
+  }
+}
+
+@media (max-width: 1024px) {
+  .main .leftside h3 {
+    font-size: 38px;
+    width: 480px;
+  }
+
+  .main .leftside p {
+    font-size: 14px;
+  }
+
+  .main .leftside .buttons {
+    max-width: 300px;
+  }
+
+  .section1 {
+    margin-top: 350px;
+  }
+
+  section .leftside h5 {
+    font-size: 30px;
+  }
+
+  section .leftside p {
+    font-size: 13px;
+  }
+
+  section .leftside .articles {
+    column-gap: 25px;
+    row-gap: 50px;
+    margin-top: 50px;
+  }
+
+  section .leftside .articles article {
+    width: 180px;
+    height: 150px;
+  }
+
+  section .rightside img {
+    display: block;
+    height: 250px;
+    margin: auto;
+  }
+}
